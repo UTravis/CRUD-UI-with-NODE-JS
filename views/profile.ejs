@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs') %> 
+        <title>Profile Page</title>
+      </head>
+<body class="container">
+    <%- include('./partials/nav.ejs') %> 
+
+    <table>
+        <thead>
+          <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Gender</th>
+              <th>Phone</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><%= data.name %> </td>
+            <td><%= data.email %> </td>
+            <td><%= data.gender %> </td>
+            <td><%= data.phone %> </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a name="" id="" class="btn btn-small waves-dark" href="/" role="button">Back</a>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
