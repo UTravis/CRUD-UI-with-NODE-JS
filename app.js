@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const profileModel = require('./model/profileModel');
 const parser = require('body-parser')
 
-const database = "mongodb+srv://travis:12345@cluster0.a6gdicd.mongodb.net/?retryWrites=true&w=majority"
+const database = "mongodb+srv://username:password@cluster0.a6gdicd.mongodb.net/?retryWrites=true&w=majority"
 const port = 3000;
 const app = express()
 
